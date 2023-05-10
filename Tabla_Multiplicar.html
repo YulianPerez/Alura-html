@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+
+<h1>PROGRAMA MULTIPLICADOR</h1>
+
+<script>
+	
+	function saltarlinea() {
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function imprimir(frase) {
+
+		document.write(frase);
+		saltarlinea();
+	}
+
+	var numero= parseInt(prompt("Ingrese el numero que desea multiplicar"));
+
+	var multiplicador= 1
+
+	while (multiplicador <= 10){
+
+		imprimir(numero * multiplicador);
+		multiplicador = multiplicador + 1;
+
+	}
+
+	// for (var numero = parseInt(prompt("Ingrese el numero que desea multiplicar")) ;multiplicador <= 10 ;multiplicador = multiplicador + 1) {
+
+	// imprimir(numero * multiplicador);
+
+	// }
+
+
+
+	</script>

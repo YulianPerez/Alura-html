@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+
+<h1>PROGRAMA MULTIPLICADOR</h1>
+
+<script>
+	
+	function saltarlinea() {
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function imprimir(frase) {
+
+		document.write(frase);
+		saltarlinea();
+	}
+
+	var numero = 0
+	var contador = 0
+	var pares = 0
+	// var par = 2
+
+	while(contador < 100){
+
+		contador= contador + 2
+		pares = numero + contador;
+		
+
+		imprimir(pares)
+
+	}
+
+	imprimir("Fin")
+
+	</script>
